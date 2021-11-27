@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-image: image(image/shape/frame56.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #676767;
+}
+
+p {
+    font-size: 20px;
+    color: #676767;
+}
+
+
+h2 {
+    color: #676767;
+    font-size: 30px;
+}
+
+.color_orange {
+    color: #FB934A;
+}
+
+.link_button {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+
+    background-image: linear-gradient(blue, cyan);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+.flexible_container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 80%;
+    padding-left: 2%;
+}
+
+.section_1 {
+    padding: 10px;
+}
+
+.section_2 {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    padding: 40px;
+
+}
+
+.section_2 p {
+    text-align: center;
+}
+
+.section_2 h2 {
+    text-align: center;
+}
+
+.article {
+    text-align: center;
+}
+
+.box_container {
+
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    margin-left: 17px;
+    margin-right: 10px;
+    box-shadow: 6px 6px 6px 6px gray;
+    border-radius: 15px;
+    padding: 10px;
+
+
+
+}
+
+.box img {
+    margin-bottom: 5px;
+    width: 90%;
+    height: 45%;
+    padding-top: 10px;
+}
+
+#footer {
+    background-color: #0B0D17;
+    text-align: center;
+    color: #fff;
+    height: 100px;
+    padding: 15px;
+
+}
+
+#footer .food_color {
+    color: #F38043;
+}
+
+.order_now {
+    text-align: center;
+}
+
+
+.optional_content {
+    margin-top: 100px;
+
+    display: flex;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.optional_img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.optional_img img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 4px gray
+}
